@@ -1,0 +1,361 @@
+/* Home.css */
+
+/* #00796b  header-footer */
+/* #fff background */
+/* #004d40 sub heading links and secondary btns */
+/* #00c853 call to action btn */
+/* #f5f5f5 background */
+/* #424242 text */
+/* #ffb300 warning notification */
+/* #d32f2f critical */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+.home-container {
+    padding: 22px;
+    color: #31338a;
+    animation: backgroundAnimation 10s infinite alternate;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-color: #f5f5f5;
+    }
+    50% {
+        background-color: #e0f7fa;
+    }
+    100% {
+        background-color: #f5f5f5;
+    }
+}
+
+.home-sect {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-left: 90px;
+}
+
+.home-sect-left {
+    padding: 20px;
+    width: 50%;
+}
+
+.home-sect-left-text h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: #31338a;
+}
+
+.header-two {
+    margin-top: -60px;
+}
+
+.header-two span {
+    color: #00c853;
+}
+
+.home-sect-left-text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #424242;
+    font-weight: 600;
+}
+
+.home-sect-right {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    animation: imageAnimation 10s infinite alternate;
+}
+
+.home-sect-right img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes imageAnimation {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    25% {
+        transform: scale(1.05);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.07);
+        opacity: 0.8;
+    }
+    75% {
+        transform: scale(1.09);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1122px) {
+    .home-sect-left-text h2 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1077px) {
+    .home-sect-left-text h2 {
+        font-size: 40px;
+    }
+    .home-sect-left-text p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 1020px) {
+    .home-sect {
+        margin-left: 1px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .home-sect {
+        flex-direction: column;
+        margin-left: 0;
+        text-align: center;
+        position: relative;
+    }
+
+    .home-sect-left,
+    .home-sect-right {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .home-sect-left-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        padding: 60px;
+        width: 100%;
+        padding-top: 800px;
+        text-align: center;
+        z-index: 1; /* Ensures text is above the image */
+        background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+        border-radius: 10px; /* Rounded corners */
+    }
+
+    .home-sect-right {
+        position: relative;
+    }
+
+    .home-sect-right img {
+        width: 100%;
+        height: auto;
+        z-index: 0; /* Ensures image is behind the text */
+    }
+    .home-sect-left-text h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 50px;
+        color: #fbfbfb;
+        margin-top: -550px;
+    }
+    .home-sect-left-text p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: #fbfbfb;
+        font-weight: 600;
+    }
+}
+@media (max-width: 667px) {
+    .home-sect-left-text h2 {
+        font-family: 'Poppins', sans-serif;
+        color: #fbfbfb;
+    }
+    .home-sect-left-text p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        color: #fbfbfb;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 557px) {
+    .home-sect-left-text h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        margin-top: -500px;
+        color: #fbfbfb;
+    }
+    .home-sect {
+        margin-left: 0;
+    }
+}
+
+/* button style here */
+
+.home-sect-btn {
+    height: 3.1em;
+    width: 9.3em;
+    background: transparent;
+    -webkit-animation: jello-horizontal 0.9s both;
+    animation: jello-horizontal 0.9s both;
+    border: 2px solid #31338a;
+    background-color: #31338a;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.home-sect-btn:hover {
+    background: #262769;
+    color: #ffffff;
+    animation: squeeze3124 0.9s both;
+}
+
+@keyframes squeeze3124 {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+      transform: scale3d(1.25, 0.75, 1);
+    }
+
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+      transform: scale3d(0.75, 1.25, 1);
+    }
+
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+      transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+      transform: scale3d(0.95, 1.05, 1);
+    }
+
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+      transform: scale3d(1.05, 0.95, 1);
+    }
+
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+
+  /* home tooltip */
+  @media (max-width: 768px){
+    .home-sect-left-btn button.online-booking .button-text{
+        color: #fff!important;
+    }
+  }
+.home-sect-left-btn{
+    max-width: 250px;
+}
+.home-sect-left-btn button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+    /* border: 2px solid #31338a; */
+    /* border-radius: 30px; */
+    border-radius: 1.625rem;
+    margin-top: 10px;
+   }
+
+   .home-sect-left-btn button.online-booking {
+    width: 13.3rem;
+    height: auto;
+   }
+
+   .home-sect-left-btn button.online-booking .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #31338a;
+    /* border-radius: 1.625rem; */
+    border-radius: 10px;
+   }
+
+   .home-sect-left-btn   button.online-booking .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+   }
+
+   .home-sect-left-btn button.online-booking .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+
+   .home-sect-left-btn button.online-booking .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+   }
+
+   .home-sect-left-btn button.online-booking .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+   }
+
+   .home-sect-left-btn button:hover .circle {
+    width: 100%;
+   }
+
+   .home-sect-left-btn button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+   }
+
+   .home-sect-left-btn button:hover .button-text {
+    color: #fff;
+   }

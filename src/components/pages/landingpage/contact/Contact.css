@@ -1,0 +1,126 @@
+/* Contact.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+.contact-form-title{
+    width: 93%;
+    margin-top: 40px;
+}
+.contact-form-right {
+    background-color: #0056b3;
+    color: #fff;
+}
+.contact-form-right h3 {
+    color: #fff !important;
+}
+.contact-form-right li {
+    color: #fff !important;
+}
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.contact-form-title {
+    margin-bottom: 20px;
+}
+
+.contact-form-title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+
+.contact-form-content {
+    display: flex;
+    max-width: 92.5%;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.contact-form-left,
+.contact-form-right {
+    padding: 30px;
+    flex: 1;
+}
+
+.contact-form-left h3,
+.contact-form-right h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form-left form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-left input,
+.contact-form-left textarea {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 93.5%;
+    margin-right: 90px;
+}
+
+.contact-form-left button {
+    padding: 15px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form-left button:hover {
+    background-color: #0056b3;
+}
+
+.contact-form-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-form-right li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-form-right li svg {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #007bff;
+}
+.contact-icon {
+    font-size: 30px;
+    color: #ffffff !important;
+    margin-right: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .contact-form-content {
+        flex-direction: column;
+    }
+}

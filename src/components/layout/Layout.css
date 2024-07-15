@@ -1,0 +1,35 @@
+
+
+.menu-item{
+    margin-top: 70px;
+}
+.menu-button{
+    color: #040407;
+}
+.menu-btn{
+    font-size: 1.5rem !important;
+    cursor: pointer;
+    z-index: 1000;
+}
+.header-layout{
+    /* position: fixed;
+    width: 100%; */
+}
+.content-layout{
+    /* margin-top: 80px !important; */
+}
+
+.header-layout{
+    background-color: #040407;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-menus{
+    position: absolute;
+    right: 20px;
+}

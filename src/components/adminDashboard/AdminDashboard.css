@@ -1,0 +1,10 @@
+/* AdminDashboard.css */
+.site-card-wrapper {
+    background: #f0f2f5;
+    padding: 30px;
+  }
+  
+  .ant-card {
+    text-align: center;
+  }
+  

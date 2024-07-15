@@ -1,0 +1,10 @@
+.highlight-row {
+    background-color: #fffb8f !important;
+  }
+.bookingInfoModalCont{
+  border: 2px solid rgb(209, 205, 205);
+  border-radius: 10px;
+  display: flex;
+  gap: 50px;
+  padding: 10px;
+}

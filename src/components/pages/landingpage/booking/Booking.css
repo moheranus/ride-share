@@ -1,0 +1,38 @@
+.steps-sidebars{
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  width: 25%;
+  float: left;
+  padding: 20px;
+  margin: 10px;
+  height: auto;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #074173 0%, #025aa8 100%) !important;
+}
+.form-contents{
+  width: 70%;
+  float: left;
+  padding: 20px;
+  /* margin: 10px; */
+  height: auto;
+  border-radius: 10px;
+  background: #fff;
+}
+.bookintestheader{
+  margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+  .step-form-container {
+    flex-direction: column;
+  }
+
+  .steps-sidebars {
+    width: 93%;
+
+  }
+
+.form-contents{
+  width: 100% !important;
+}
+
+}

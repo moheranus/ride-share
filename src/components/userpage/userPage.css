@@ -1,0 +1,14 @@
+
+
+
+.userPage-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userPage-cont h1{
+    font-size: 6rem;
+    color: #333;
+    margin-bottom: 1rem;
+}

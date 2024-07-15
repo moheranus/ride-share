@@ -1,0 +1,132 @@
+/* src/index.css */
+
+html, body, #root {
+    height: 100%;
+  }
+  .tab-bg{
+    background-color: #fff;
+  }
+  .tabs{
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+  }
+  .layout {
+    min-height: 100%;
+  }
+
+  .site-layout-content {
+    background: #fff;
+    /* padding: 24px; */
+    min-height: 280px;
+    /* border: 2px solid red; */
+    width: 100%;
+  }
+  .addons{
+    background-color: #fff;
+  }
+
+
+
+  .ant-layout-header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+  }
+
+  @media (max-width: 1022px) {
+
+  }
+  @media (max-width: 768px) {
+    .ant-layout-header {
+      padding: 0;
+    }
+    .ant-menu-item {
+      font-size: 12px;
+    }
+    .ant-col-12 {
+      span: 24;
+    }
+    .site-layout-content {
+
+    width: 95vw;
+    margin-left: -60px;
+    }
+  }
+
+  .formInput{
+    padding: 10px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 17px;
+  }
+  .ant-select-single {
+    font-size: 14px;
+    height: 43px !important;
+  }
+  .continue-btn{
+  padding: 26px;
+  font-size: 15px;
+  font-weight: 600;
+  }
+
+  .booking-summery{
+  display: flex;
+  gap: 40px;
+  }
+  .booking-detail{
+  padding: 10px;
+  margin-top: -40px;
+  }
+  .booking-detail h3{
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 20px;
+  color: black;
+  }
+  .guest-detail{
+  margin-top: -40px;
+  padding: 10px;
+  }
+  .guest-detail h3{
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 20px;
+  color: black;
+  }
+  .guest-detail p{
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 15px;
+  color: black;
+  }
+  .guest-detail p span{
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 15px;
+  color: black;
+  padding-right: 10px;
+  }
+  .booking-detail p{
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 15px;
+  color: black;
+  }
+  .booking-detail p span{
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 15px;
+  color: black;
+  padding-right: 10px;
+  }
+
+
+  /* ant tab style */
+  .ant-tabs .ant-tabs-tab-btn {
+  font-size: 17px;
+  font-weight: 800;
+  font-family: 'Poppins';
+  color: #31338a;
+
+  }

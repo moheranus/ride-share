@@ -1,0 +1,35 @@
+.apps{
+    position: relative;
+   background-color: #f5f5f5;
+  }
+
+
+
+  section {
+    padding: 100px 20px;
+    min-height: 85vh;
+  }
+
+  #home {
+    background-color: #fff;
+    padding-top: 100px;
+  }
+
+  #service {
+    background-color: #fff;
+  }
+
+  #featured-cars {
+    background-color: #fff;
+  }
+
+  #brands {
+    background-color: #fff;
+  }
+
+  #contact {
+    background-color: #fff;
+  }
+  /* CustomTabs.css */
+
+
